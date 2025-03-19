@@ -74,6 +74,20 @@ main img {
     border-radius: 15px;
 }
 
+.back-button {
+    display: inline-block;
+    background: blue; 
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+}
+
 footer {
     text-align: center;
     padding: 10px;
