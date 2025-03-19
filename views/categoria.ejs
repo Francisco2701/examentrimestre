@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/header') %>
+
+    <main class="container">
+        <h2><%= lang === 'en' ? 'Category: ' : 'Categoría: ' %> <%= categoria %></h2>
+
+        <% if (places.length > 0) { %>
+            <div class="posts-list">
+                <% places.forEach(place => { %>
+                    <div class="post-card">
+                        <img src="<%= place.thumbnail %>" alt="<%= place.title %>">
+                        <h3><%= place.title %></h3>
+                        <p><%= place.intro %></p>
+                        <a href="/lugar/<%= place.id %>?lan=<%= lang %>">
+                            <%= lang === 'en' ? 'See more' : 'Ver más' %>
+                        </a>
+                    </div>
+                <% }) %>
+            </div>
+        <% } else { %>
+            <p class="subtitle"><%= lang === 'en' ? 'No places available in this category.' : 'No hay lugares disponibles en esta categoría.' %></p>
+        <% } %>
+
+        <a href="/?lan=<%= lang %>" class="back-button">
+            <%= lang === 'en' ? 'Back to Home' : 'Volver al Inicio' %>
+        </a>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

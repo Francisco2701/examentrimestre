@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/header') %>
+
+    <main>
+        <h1><%= lugar.title %></h1>
+        <img src="<%= lugar.image %>" alt="<%= lugar.title %>">
+        <p><%= lugar.content %></p>
+        <a href="/?lan=<%= lang %>">
+            <%= lang === 'en' ? 'Back to Home' : 'Volver al Inicio' %>
+        </a>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

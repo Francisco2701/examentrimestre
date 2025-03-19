@@ -1,0 +1,19 @@
+<header>
+    <div class="container">
+        <h1><a href="/?lan=<%= lang %>">Turismo en Málaga</a></h1>
+
+        <h3>Descubre los lugares mas turísticos de Málaga</h3>
+
+        <nav>
+            <ul>
+                <% categories.forEach(category => { %>
+                    <li>
+                        <a href="/categoria/<%= category %>?lan=<%= lang %>">
+                            <%= category.charAt(0).toUpperCase() + category.slice(1) %>
+                        </a>
+                    </li>
+                <% }) %>
+            </ul>
+        </nav>
+    </div>
+</header>

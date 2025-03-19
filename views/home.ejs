@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/header') %>
+
+    <main>
+        <h1><%= lang === 'en' ? 'Tourism in Málaga' : 'Turismo en Málaga' %></h1>
+        <p><%= lang === 'en' ? 'Discover the best tourist places' : 'Descubre los mejores lugares turísticos' %></p>
+
+        <div class="places">
+            <% places.forEach(place => { %>
+                <div class="card">
+                    <img src="<%= place.thumbnail %>" alt="<%= place.title %>">
+                    <h3><%= place.title %></h3>
+                    <p><%= place.intro %></p>
+                    <a href="/lugar/<%= place.id %>?lan=<%= lang %>">
+                        <%= lang === 'en' ? 'See more' : 'Ver más' %>
+                    </a>
+                </div>
+            <% }) %>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

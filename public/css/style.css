@@ -1,50 +1,83 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f8f9fa;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+header {
+    background-image: url("https://images.pexels.com/photos/8885140/pexels-photo-8885140.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 12rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    color: white;
 }
-.table {
-    width: 100%;
-    border-collapse: collapse;
+
+header h1 a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+
+
+header p {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+main {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.places .card img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem; 
+}
+
+main img {
+    width: 800px; 
+    height: 400px; 
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
     margin-top: 20px;
-}
-.table th, .table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-.table th {
-    background-color: #007bff;
-    color: white;
-}
-.button {
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 5px;
-}
-.button.add {
-    background-color: #28a745;
-    color: white;
-}
-.button.delete {
-    background-color: #dc3545;
-    color: white;
-}
-input[type="text"], input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }

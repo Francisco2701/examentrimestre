@@ -1,0 +1,96 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "title": "Alcazaba of Málaga",
+            "intro": "A Moorish fortress offering stunning views of the city and the sea.",
+            "category": "historical",
+            "content": "The Alcazaba of Málaga is a well-preserved Moorish fortress from the 11th century, offering breathtaking panoramic views and a glimpse into the city's past.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcazaba_de_M%C3%A1laga_overview.jpg/1280px-Alcazaba_de_M%C3%A1laga_overview.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcazaba_de_M%C3%A1laga_overview.jpg/1280px-Alcazaba_de_M%C3%A1laga_overview.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Gibralfaro Castle",
+            "intro": "A medieval castle with impressive defensive walls and scenic viewpoints.",
+            "category": "historical",
+            "content": "The Gibralfaro Castle, built in the 14th century, stands as a symbol of Málaga's rich history and strategic importance.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Castillo_de_M%C3%A1laga.JPG",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/db/Castillo_de_M%C3%A1laga.JPG"
+        },
+        {
+            "id": 3,
+            "title": "Málaga Cathedral",
+            "intro": "An iconic Renaissance-style cathedral known as 'La Manquita'.",
+            "category": "religious",
+            "content": "The Málaga Cathedral is a stunning architectural masterpiece, famous for its unfinished south tower.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/254_Jahre_dauerte_es_bis_der_Bau_der_Kathedrale_von_Malaga_vollendet_war._05.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f3/254_Jahre_dauerte_es_bis_der_Bau_der_Kathedrale_von_Malaga_vollendet_war._05.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Muelle Uno",
+            "intro": "A modern shopping and dining area by the waterfront.",
+            "category": "commercial",
+            "content": "Muelle Uno is a vibrant shopping and leisure area in Málaga, featuring top brand stores, restaurants, and a lively atmosphere by the sea.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Muelle_1_puerto_de_m%C3%A1laga.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/23/Muelle_1_puerto_de_m%C3%A1laga.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Larios Street",
+            "intro": "Málaga’s main shopping street, home to top international brands.",
+            "category": "commercial",
+            "content": "Calle Larios is the heart of Málaga’s shopping district, offering a mix of luxury and local stores, along with seasonal events and decorations.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Calle_Marqu%C3%A9s_de_Larios_under_cover_of_tents._M%C3%A1laga%2C_Andalusia%2C_Spain%2C_Southeastern_Europe.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Calle_Marqu%C3%A9s_de_Larios_under_cover_of_tents._M%C3%A1laga%2C_Andalusia%2C_Spain%2C_Southeastern_Europe.jpg"
+        }
+    ],
+    "es": [
+        {
+            "id": 1,
+            "title": "Alcazaba de Málaga",
+            "intro": "Una fortaleza musulmana con vistas impresionantes de la ciudad y el mar.",
+            "category": "histórico",
+            "content": "La Alcazaba de Málaga es una fortaleza musulmana bien conservada del siglo XI, que ofrece vistas panorámicas y una mirada al pasado de la ciudad.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcazaba_de_M%C3%A1laga_overview.jpg/1280px-Alcazaba_de_M%C3%A1laga_overview.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcazaba_de_M%C3%A1laga_overview.jpg/1280px-Alcazaba_de_M%C3%A1laga_overview.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Castillo de Gibralfaro",
+            "intro": "Un castillo medieval con impresionantes murallas defensivas y vistas panorámicas.",
+            "category": "histórico",
+            "content": "El Castillo de Gibralfaro, construido en el siglo XIV, es un símbolo de la rica historia y la importancia estratégica de Málaga.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Castillo_de_M%C3%A1laga.JPG",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/db/Castillo_de_M%C3%A1laga.JPG"
+        },
+        {
+            "id": 3,
+            "title": "Catedral de Málaga",
+            "intro": "Una catedral renacentista icónica conocida como 'La Manquita'.",
+            "category": "religioso",
+            "content": "La Catedral de Málaga es una impresionante obra arquitectónica, famosa por su torre sur inacabada.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/254_Jahre_dauerte_es_bis_der_Bau_der_Kathedrale_von_Malaga_vollendet_war._05.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f3/254_Jahre_dauerte_es_bis_der_Bau_der_Kathedrale_von_Malaga_vollendet_war._05.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Muelle Uno",
+            "intro": "Una moderna zona comercial y gastronómica junto al mar.",
+            "category": "comercial",
+            "content": "Muelle Uno es una vibrante zona de compras y ocio en Málaga, con tiendas de marcas reconocidas, restaurantes y un ambiente animado junto al mar.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Muelle_1_puerto_de_m%C3%A1laga.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/23/Muelle_1_puerto_de_m%C3%A1laga.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Calle Larios",
+            "intro": "La principal calle comercial de Málaga, hogar de marcas internacionales.",
+            "category": "comercial",
+            "content": "Calle Larios es el corazón del distrito comercial de Málaga, ofreciendo una mezcla de tiendas de lujo y locales, junto con eventos y decoraciones estacionales.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Calle_Marqu%C3%A9s_de_Larios_under_cover_of_tents._M%C3%A1laga%2C_Andalusia%2C_Spain%2C_Southeastern_Europe.jpg",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Calle_Marqu%C3%A9s_de_Larios_under_cover_of_tents._M%C3%A1laga%2C_Andalusia%2C_Spain%2C_Southeastern_Europe.jpg"
+        }
+    ]
+}
